@@ -1,0 +1,94 @@
+\PassOptionsToPackage{dvipsnames}{xcolor}
+
+\documentclass[10pt,a4paper]{altacv}
+
+\geometry{left=1cm,right=9cm,marginparwidth=6.8cm,marginparsep=1.2cm,top=1.25cm,bottom=1.25cm,footskip=2\baselineskip}
+
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[default]{lato}
+
+
+\definecolor{Mulberry}{HTML}{72243D}
+\definecolor{SlateGrey}{HTML}{2E2E2E}
+\definecolor{LightGrey}{HTML}{666666}
+\colorlet{heading}{Sepia}
+\colorlet{accent}{Mulberry}
+\colorlet{emphasis}{SlateGrey}
+\colorlet{body}{LightGrey}
+
+\renewcommand{\itemmarker}{{\small\textbullet}}
+\renewcommand{\ratingmarker}{\faCircle}
+
+\addbibresource{sample.bib}
+
+\usepackage[colorlinks]{hyperref}
+
+\begin{document}
+
+\name{NGUYEN NHU HOANG ANH}
+\tagline{DATA SCIENTIST }
+\personalinfo{
+  \email{tnguen00@gmail.com }
+  \phone{+7(903)-793-95-47}
+  \location{Moscow, Russia}
+  \github{github.com/tng00}
+}
+
+
+\begin{fullwidth}
+\makecvheader
+\end{fullwidth}
+
+
+\cvsection[page1sidebar]{Experience}
+
+\cvevent{Junior Python Developer}{I-TECO Company}{July 2020 -- August 2020}{Moscow, Russia}
+
+
+\medskip
+
+
+\cvsection{Strengths}
+
+\cvtag{Hard-working} 
+\cvtag{Communication skills}
+\cvtag{Responsible}\
+\cvtag{Time Management}
+\cvtag{Motivator \& Leader}
+
+
+\cvsection{A Day of My Life}
+
+
+\wheelchart{1.5cm}{0.5cm}{%
+  6/8em/accent!30/{Sleep and eat}, 
+  4/8em/accent!8/{Socializing},
+  3/7em/accent!8/Go for a walk with friends,
+  8/8em/accent!55/Make my to do list,
+  2/10em/accent!10/Sports and relaxation,
+  5/6em/accent!20/Spending time with family
+}
+
+\cvsection{Interests}
+
+\begin{itemize}
+\item Literature
+
+\item Technology
+
+\item Film
+
+\item Science
+
+\item Camping
+\end{itemize}
+
+\divider
+
+\medskip
+
+\clearpage
+
+
+\end{document}
